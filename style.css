@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+
+    background: #c5c6c7;
+}
+
+.logo{
+    height: 50px;
+    text-align: center;
+}
+.q1{
+    background:url(bga.png) no-repeat fixed;
+
+    
+}
+nav{
+    background: #99c7e9;
+    width: 500%;
+    overflow: hidden;
+    text-align: justify;
+
+}
+
+.details {
+  
+    display: inline-block;
+    width: 20%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+    text-align: center;
+    margin: 2%;
+}
+.content{
+    display: block;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px black;
+    text-align: center;
+    margin: 2%;
+}
+.details h1{
+    font-size: 25px;
+}
+.main{
+    background: #c5c6c7;
+}
+
+input{
+    border: 1px solid black;
+    border-radius: 50px;
+    text-align: center;
+    height: 40px;
+    width: 300px;
+    background: #ffffff;
+    margin-top: 5px;
+    float: right;
+
+}
+input:focus{
+    border-radius: 50px;
+    border: 2px solid blue;
+    outline: none;
+    background: #ffffff;
+}
+header .aman h1{
+    color: black;
+    font-size: 50px;
+
+    font-family: 'Vampiro One', cursive;
+    margin: 9px;
+}
+header .aman h3{
+    color: black;
+    font-size: 30px;
+
+    font-family: 'Vampiro One', cursive;
+    margin: 9px;
+}
+button{
+    padding: 10px;
+    background: rgb(123, 123, 250);
+    color: white;
+    border-radius: 25px;
+    margin-top: 5px;
+    margin-right: 10px;
+    float: right;
+    border: none;
+    outline: none;
+}
+button:focus{
+    border: none;
+    outline: none;
+}
+@media screen and (max-width: 880px){
+    .details h1{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 690px){
+    
+    input{
+        height: 40px;
+        width: 200px;
+    }
+    header h1{
+        color: black;
+        font-size: 35px;
+        font-family: 'Grandstander', cursive;
+    }
+    header h3{
+        color: black;
+        font-size: 20px;
+        font-family: 'Grandstander', cursive;
+    }
+    .details {
+  
+        display: inline-block;
+        width: 30%;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px black;
+        text-align: center;
+        margin: 2%;
+    }
+    .details h1{
+        font-size: 25px;
+    }
+    button{
+        padding: 5px;
+        background: rgb(123, 123, 250);
+        color: white;
+        border-radius: 25px;
+        margin-top: 5px;
+        margin-right: 10px;
+        font-size: 15px;
+        float: right;
+    }
+
+}
+
+@media screen and (max-width: 580px){
+    .details h1{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 470px){
+    .details h1{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 355px){
+    .details h1{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 305px){
+    .details h1{
+        font-size: 5px;
+    }
+}
